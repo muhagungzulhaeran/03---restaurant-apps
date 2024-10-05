@@ -9,8 +9,7 @@ describe("Liking A ", () => {
 
   beforeEach(async() => {
     addLikeButtonContainer();
-    // await new Promise(resolve => setTimeout(resolve, 10000));
-    await FavoriteRestaurantIdb.putRestaurant({ id: 1 });
+    
   });
 
   it("should show the like button when the restaurant has not been liked before", async () => {
